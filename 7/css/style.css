@@ -1,0 +1,46 @@
+html{
+	font-family: 'Arial';
+	font-size:12px;
+	color: #999;
+	line-height: 2em;
+}
+a{
+	text-decoration: none;
+	color: #727272;
+}
+.menu{
+	font-size: 14px;
+	color:#white;
+	font-weight:bold;
+	
+}
+
+.special{
+	color:#fdb306;
+}
+.green{
+	color: green
+}
+/*html{
+	font-size:12px;
+	color:gray;
+	line-height:2em;
+}
+a{
+	text-decoration:none;
+	color:#727272;
+}
+
+.menu{
+	color:white;
+	font-weight:bolder;
+}
+.green{
+	color:#00FF00;
+}
+.special{
+	color:orange;
+}
+
+*/
+
