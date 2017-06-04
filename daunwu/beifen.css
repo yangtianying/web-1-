@@ -1,0 +1,23 @@
+*{padding-bottom:0px;margin:0px}
+body{ font:12px/24px  "宋体" ; color:#333;}/*/24代表行高*/
+ul{ list-style:none; }
+a{text-decoration: none;color:#333;}
+
+div.logo img{height:60px;}
+
+
+.clear{clear:left;}
+.logo{width:1000px; margin:0px auto;}
+
+.menu{ width:100%; height:40px; background: #269f70}
+.menu ul{widh:1000px; margin:0px auto;}
+.menu ul li{float:left; width:120px; line-height:40px;}
+.menu a{font-size:16px; color:#fff;}
+
+.banner ,.banner img{width:100%; hight:auto;}
+.main{width:1000px; margin:0px auto;}
+.m-left{width:248px; height:300px; float:left; border:1px solid #ccc;}
+.m-right{width:748px;height:300px; float:right; border:1px solid #ccc;}
+.list{ width: 1000px;margin: 0px auto; }
+.list-img{ width:230px; height: 300px;float:left; margin:10px;}
+.footer{height: 100px; background: #666;color: #aaa; text-align: center;}
