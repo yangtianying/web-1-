@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>导航栏</title>
+	<meta charset="utf-8">
+	<style type="text/css">
+		#menu{
+			background-images:url(images/menu_bg.png);
+			position: relative;
+ 		}
+ 		
+ 		
+ 		#menu ul li{
+ 			list-style:none;
+			float:left;
+			margin:10px 0;
+			height: 35px;
+			/*line-height: 25px;*/
+ 		}
+ 		#menu ul li a{
+ 			display:block;
+			text-decoration:none;
+			width: 130px;
+			text-align: center;
+			height: 25px;
+			line-height: 25px;
+			color:#000;
+
+
+ 		}
+ 		#menu ul li:hover{
+ 			background-image:url(images/menu_bg1.png); 
+ 		}
+ 		.xie{
+ 			position: absolute;
+ 			z-index: -1;
+ 			margin: 0 10px 0;
+ 		}
+ 		#menu ul li a:hover{
+ 			color: #fff;/*白色*/
+ 		}
+	</style>
+</head>
+<body>
+<div id="menu">
+<div class="xie"><img src="images/menu_bg.png"></div>
+	<ul>
+		<li><a href="#">首页</a></li>
+		<li><img src="images/line.png"></li>
+		<li><a href="#">关于我们</a></li>
+		<li><img src="images/line.png"></li>
+		<li><a href="#">新闻动态</a></li>
+		<li><img src="images/line.png"></li>
+		<li><a href="#">产品中心</a></li>
+		<li><img src="images/line.png"></li>
+		<li><a href="#">工程案例</a></li>
+		<li><img src="images/line.png"></li>
+		<li><a href="#">联系我们</a></li>	
+		
+	</ul>
+</div>
+</body>
+</html>
